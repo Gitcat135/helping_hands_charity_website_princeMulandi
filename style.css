@@ -1,0 +1,29 @@
+.hero-index {
+  background-image: url("images/pexels-tima-miroshnichenko-5439453.jpg"); min-height: 110vh;
+  background-size: cover;        /* makes image fill the section */
+  background-position: center;   /* centers the image */
+  background-repeat: no-repeat;  /* prevents repeating */
+  height: 400px;
+  color: white;
+  padding: 40px;
+  margin-top: 30px;
+  text-align: center;
+  
+}
+
+.body {
+  margin:0;
+}
+
+.navbar {
+  background:rgb(75, 85, 151);
+
+}
+
+.ul {
+  display:flex;
+  list-style:none;
+  gap:30px;
+  margin:0;
+  padding:0;
+}
