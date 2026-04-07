@@ -39,4 +39,112 @@
 
 .footer{
   width: 100vw;
-}  
+}
+
+.dropdown-container {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    
+    text-align: center;
+}
+
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000000; /* deep purple */
+}
+
+  select {
+    width: 250px;
+    padding: 10px 15px;
+    
+    
+    background-color: #ffffff; /* light purple */
+    color: #000000;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+  select:hover {
+    background-color: #ffffff; /* slightly darker */
+    border-color: #6daed9;
+}
+
+  select:focus {
+    border-color: #637aec;
+    box-shadow: 0 0 8px rgba(112, 198, 221, 0.5);
+}
+
+/* CSS */
+.button-23 {
+  background-color: #FFFFFF;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #222222;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 13px 23px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: auto;
+}
+
+.button-23:focus-visible {
+  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+  transition: box-shadow .2s;
+}
+
+.button-23:active {
+  background-color: #F7F7F7;
+  border-color: #000000;
+  transform: scale(.96);
+}
+
+.button-23:disabled {
+  border-color: #DDDDDD;
+  color: #DDDDDD;
+  cursor: not-allowed;
+  opacity: 1;
+}
+
+.button-34 {
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+
+
+

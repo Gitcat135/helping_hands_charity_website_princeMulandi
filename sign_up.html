@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- Start of navbar -->
+    
+    <div class="navbar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">CarProtect</a>    
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About us</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="programs.html">Programs</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="sign_up.html">Sign up</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contacts</a>
+                        </li>
+                                       
+                    </ul>
+                </div>
+            </div>
+        </nav>    
+    </div>
+    
+    <!-- end of navbar -->
+
+    <!-- Start of Hero section -->
+    <section class="hero-sign_up">
+        <div class="text-center pb-5" style="background-color: rgb(241, 240, 240);">
+            <h1 class="display-1 mt-4" style="color: rgb(75, 85, 151);">Sign up</h1>
+            <h5>Join us.</h5>
+        </div>
+    </section>
+    <!-- End of Hero section -->
+
+    <!-- Start of Sigh up section -->   
+    <section class="sign_up">
+        <div class="row  mx-auto mt-3" style="align-items: center; justify-content: center;">
+            <div class="col-md-6">
+                <div class="shadow p-3 bg-white rounded">
+                    <h3>Sign up</h5>
+                    <div><p>Name:</p> <input type="text" class="form-control mb-3"></div>
+                    <div><p>Email:</p><input type="text" class="form-control mb-3"></div>
+                    
+                    <div class="shadow p-3 bg-white rounded mt-3">
+                        <h5>Payments</h5>
+                        <div><p>Card number</p><input type="text" class="form-control mb-3" placeholder="e.g '1234 4654 5434 3345'"></div>
+                        <div><p>Expiration Date</p><input type="text" class="form-control mb-3" placeholder="YY/MM"></div>
+                        <div><p>Security Code</p><input type="text" class="form-control mb-3" placeholder="CVC"></div>
+                        <div>
+                        <div class="dropdown-container">
+                            <label for="car-insurance">Choose Your Insurance Type:</label>
+                            <select id="car-insurance" name="car-insurance">
+                                <option value="" disabled selected>Select an option</option>
+                                <option value="third-party">Full-Coverage_$2200</option>
+                                <option value="fire-theft">Minimal-Coverage_$600</option>
+                            </select>
+                            </div>
+                        </div>
+                        
+                    <button  class="button-23" role="button"><a style="text-decoration: none ; color: black;" href="#">Submit</a></button>
+
+
+                    </div>
+                </div>
+                
+                    
+                
+            </div>
+        </div>
+    </section>
+    <!-- End of Sign up section -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
