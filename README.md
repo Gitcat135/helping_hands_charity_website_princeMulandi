@@ -16,7 +16,7 @@
 ## Home page
 
 - The home page has a background image with a short text stating what the website is about.
-- Boxes containing bussines facts together with a short summary of the about and the programs page, and finally the footer with contains buttons to the programs and sign up page and some contact infomation.
+- Boxes containing bussines facts together with a short summary of the about and the programs page, and finally the footer it contains buttons to the programs and sign up page and some contact infomation.
 
 ## About page
 
